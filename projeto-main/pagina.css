@@ -42,3 +42,50 @@ header {
 .nav-links a:hover {
   color: #969696;
 }
+
+.product {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product img {
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.product-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.buy-now {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}
