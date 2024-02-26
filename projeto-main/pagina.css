@@ -76,7 +76,7 @@ header {
 }
 
 .buy-now {
-  background-color: #007bff;
+  background-color: #060d30;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -87,5 +87,5 @@ header {
 }
 
 .buy-now:hover {
-  background-color: #0056b3;
+  background-color: #0d1d69;
 }
