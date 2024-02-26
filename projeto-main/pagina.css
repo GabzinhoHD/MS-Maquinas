@@ -45,7 +45,7 @@ header {
 
 .product {
   display: flex;
-  background-color: #fff;
+  background-color: #faf2f2;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -75,7 +75,7 @@ header {
   margin-bottom: 15px;
 }
 
-.buy-now {
+.button {
   background-color: #060d30;
   color: #fff;
   border: none;
@@ -86,6 +86,13 @@ header {
   transition: background-color 0.3s ease;
 }
 
-.buy-now:hover {
+.button:hover {
   background-color: #0d1d69;
+}
+
+footer {
+  background-color: #060d30;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
